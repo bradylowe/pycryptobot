@@ -235,7 +235,7 @@ class BotConfig:
             if self.disablelog:
                 self.filelog = 0
                 self.fileloglevel = "NOTSET"
-                self.logfile == "/dev/null"
+                self.logfile = "/dev/null"
 
         else:
             if self.exchange == Exchange.BINANCE:
